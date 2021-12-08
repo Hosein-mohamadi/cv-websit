@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className="header-container">
       <div className="header-parent">
-        <div class="header-hamburger">
+        <div className="header-hamburger">
           <img
             src="./image/menu.png"
             alt="menu"

@@ -1,9 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./ContectMe.css";
 import emailjs from "emailjs-com";
 
 export default function ContactMe() {
-  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -64,20 +63,20 @@ export default function ContactMe() {
           </a>
         </div>
         <div className="back-form">
-          <div class="img-back">
+          <div className="img-back">
             <h4>Send Your Email Here!</h4>
             <img
               src="	https://edubaba.herokuapp.com/static/media/mailz.d13d5e32.jpeg"
               alt="image_not_found"
             />
           </div>
-          <form ref={form} onSubmit={sendEmail}>
+          <form onSubmit={sendEmail}>
             <p></p>
-            <label for="">Name</label>
+            <label>Name</label>
             <input type="text" name="name" />
-            <label for="">Email</label>
+            <label>Email</label>
             <input type="email" name="email" />
-            <label for="">Message</label>
+            <label>Message</label>
             <textarea type="text" name="message"></textarea>
             <div className="send-btn">
               <button type="submit">
