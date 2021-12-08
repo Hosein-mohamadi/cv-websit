@@ -1,0 +1,7 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 670px;
+  background-image: url(https://edubaba.herokuapp.com/static/media/bg.d580cd37.jpg);
+}
