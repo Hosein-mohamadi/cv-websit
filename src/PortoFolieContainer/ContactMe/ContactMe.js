@@ -52,7 +52,7 @@ export default function ContactMe() {
           <a href="https://t.me/hosein_mohamadi_1400">
             <i className="fa fa-telegram"></i>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/hosein-mohammadi-076237214">
             <i className="fa fa-google-plus-square"></i>
           </a>
           <a href="https://www.instagram.com/18__hosein">
